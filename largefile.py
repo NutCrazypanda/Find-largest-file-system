@@ -44,7 +44,7 @@ if menu_select == 2:
         # for storing the size of
         # the largest file
 	print("Enter file name :")
-	search_filename = input()
+	search_filename = "*"+input()+"*"
 
         # for storing the path to the
         # largest file
@@ -54,6 +54,5 @@ if menu_select == 2:
 		try:
 			if fnmatch.fnmatch(file, search_filename):
 				find_file = os.path.join( folder, file )
-				print("The largest file is: "+find_file)
-		except :
-			print("Can not access!! Skip folder")
+				print("The file location is: "+find_file)
+
