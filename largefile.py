@@ -22,14 +22,16 @@ max_file =""
 # including subdirectories
 
 for folder, subfolders, files in os.walk(path):
+        try:
+                # checking the size of each file
+                for file in files:
+                        size = os.stat(os.path.join( folder, file )).st_size
 
-	# checking the size of each file
-	for file in files:
-		size = os.stat(os.path.join( folder, file )).st_size
-
-		# updating maximum size
-		if size>max_size:
-			#max_size = size
-			max_file = os.path.join( folder, file )
-			print("The largest file is: "+max_file)
-			print('Size: '+str(size/1024/1024/1024)+' GB')
+                        # updating maximum size
+                        if size>max_size:
+                                #max_size = size
+                                max_file = os.path.join( folder, file )
+                                print("The largest file is: "+max_file)
+                                print('Size: '+str(size/1024/1024/1024)+' GB')
+        except :
+                print("Can not access!! Skip folder")
