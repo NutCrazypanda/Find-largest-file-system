@@ -55,4 +55,5 @@ if menu_select == 2:
 			if fnmatch.fnmatch(file, search_filename):
 				find_file = os.path.join( folder, file )
 				print("The file location is: "+find_file)
-
+		except : 
+			pass
