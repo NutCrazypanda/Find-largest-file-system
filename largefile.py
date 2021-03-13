@@ -26,7 +26,7 @@ if menu_select == 1:
 		try:
                         # checking the size of each file
 			for file in files:
-			size = os.stat(os.path.join( folder, file )).st_size
+				size = os.stat(os.path.join( folder, file )).st_size
 
                                 # updating maximum size
 				if size>max_size:
