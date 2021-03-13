@@ -37,7 +37,7 @@ if menu_select == 1:
 					print("The largest file is: "+max_file)
 					print('Size: '+str(size/1024/1024/1024)+' GB')
 		except :
-			print("Can not access!! Skip folder")
+			pass
 
 if menu_select == 2:
 	size = 0
