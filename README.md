@@ -7,6 +7,9 @@ You need python install on your machine - เริ่มแรกให้ต�
 วิธีติดตั้ง python on windows https://installpython3.com/windows/
 
 ### How to use
+
+``` C:\python largefile.py ```
+
 รันไฟล์ largefile.py ด้วย python จากนั้นกำหนดไดร์ฟหรือ path folder ที่เราต้องการค้นหา และใส่ขนาดไฟล์ขั้นต่ำที่ต้องการ
 
 ![image](https://user-images.githubusercontent.com/56244402/111025298-ca692480-8415-11eb-8dbd-da66fd23feaa.png)
