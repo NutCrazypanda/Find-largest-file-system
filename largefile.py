@@ -53,7 +53,7 @@ if menu_select == 2:
 
 	for folder, subfolders, files in os.walk(path):
 		try:
-			if fnmatch.fnmatch(file, search_filename):
+			if fnmatch.fnmatch(files, search_filename):
 				find_file = os.path.join( folder, file )
 				print("The file location is: "+find_file)
 		except : 
