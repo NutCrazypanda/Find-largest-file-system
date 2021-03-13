@@ -4,7 +4,7 @@ print("Select option")
 print("1.finding by file size")
 print("2.finding by file name")
 print("Please select : ")
-menu_select = str(input())
+menu_select = int(input())
 print(menu_select)
 # folder path input
 print("Enter folder path:")
