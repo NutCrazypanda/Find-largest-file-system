@@ -52,8 +52,8 @@ if menu_select == 2:
 
         for folder, subfolders, files in os.walk(path):
                 try:
-			if fnmatch.fnmatch(file, search_filename):
-				find_file = os.path.join( folder, file )
-				print("The largest file is: "+find_file)
+		if fnmatch.fnmatch(file, search_filename):
+			find_file = os.path.join( folder, file )
+			print("The largest file is: "+find_file)
                 except :
                         print("Can not access!! Skip folder")
