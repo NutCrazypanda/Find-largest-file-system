@@ -24,3 +24,6 @@ You need python install on your machine - เริ่มแรกให้ต�
 
 ![image](https://user-images.githubusercontent.com/56244402/111029239-35265a00-842e-11eb-80e6-263049fe2f21.png)
 
+### ทดลองสร้าง GUI (ไฟล์ simply_gui.py)
+
+![image](https://user-images.githubusercontent.com/56244402/113579020-e5fad000-964d-11eb-9013-eea2be635a3a.png)
