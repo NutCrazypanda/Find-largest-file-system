@@ -26,4 +26,11 @@ You need python install on your machine - เริ่มแรกให้ต�
 
 ### ทดลองสร้าง GUI (ไฟล์ simply_gui.py)
 
+```
+pip install pysimplegui
+
+pip install --upgrade PySimpleGUI 
+
+```
+
 ![image](https://user-images.githubusercontent.com/56244402/113579020-e5fad000-964d-11eb-9013-eea2be635a3a.png)
